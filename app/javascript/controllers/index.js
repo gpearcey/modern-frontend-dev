@@ -12,5 +12,6 @@
 
 import { application } from "./application"
 
-import HelloController from "./hello_controller"
-application.register("hello", HelloController)
+import FavoriteToggleController from "./favorite_toggle_controller.ts";
+application.register("favorite-toggle", FavoriteToggleController);
+
