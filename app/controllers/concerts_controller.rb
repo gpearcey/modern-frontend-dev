@@ -11,6 +11,7 @@ class ConcertsController < ApplicationController
 
   # GET /concerts or /concerts.json
   def index
+    @query = params[:query]
     @concerts = Concert.all
   end
 

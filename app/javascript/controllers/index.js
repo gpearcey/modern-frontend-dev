@@ -13,5 +13,8 @@ application.register("css-flip", CssFlipController)
 import FavoriteToggleController from "./favorite_toggle_controller.ts"
 application.register("favorite-toggle", FavoriteToggleController)
 
+import SearchController from "./search_controller.ts"
+application.register("search", SearchController)
+
 import TextController from "./text_controller.ts"
 application.register("text", TextController)
